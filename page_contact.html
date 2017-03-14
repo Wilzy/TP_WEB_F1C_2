@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<HTML>
+	
+	<HEAD>
+		<TITLE>Contact</TITLE>
+		<meta charset="utf-8"/>
+	</HEAD>
+
+<body>
+
+	<header>
+		<h3 class="T1">CONTACT JÄGER</h3>
+	</header>
+	
+<section>
+	<nav>
+		<ul id="menu">
+			<a href="presentation_entreprise.html">Présentation Entreprise</a>
+			<br/>
+			<br/>
+			<a href="partenaire.html">Les Partenaires</a>
+			<br/>
+			<br/>
+			<a href="page_contact.html">contact</a>
+		</ul>
+	</nav>
+
+</section>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<aside>
+	
+</aside>
+	<h1>Formulaire d'achat</h1>
+<article>
+
+<p class="para"> Remplissez le formulaire pour passez une commande pour vos futur client. </p>
+	<form method="GET" action="#">
+		
+<!-- formulaire -->
+		<p>
+			<input type="text" name="nom" id="nom" placeholder="Nom :" size="30" maxlength="20"  autofocus/>
+<br/>
+<br/>		
+			<input type="text" name="prenom" id="prenom" placeholder="Prenom :" size="30" maxlength="20" autofocus/>		
+<br/>
+<br/>
+			<input type="email" name="mail" id="mail" placeholder="Mail :" size="30" maxlength="20" required />
+<br/>
+<br/>
+			<input type="tel" name="telephone" id="telephone" placeholder="TEL:" size="30" maxlength="20" />
+		
+		<fieldset>
+			<input type="magnum" name="magnum" id="magnum" checked/> <label for="magnum">magnum</label>
+<br/>
+			<input type="checkbox" name="bouteille" id="bouteille"/> <label for="bouteille">bouteille</label>
+<br/>
+			<input type="checkbox" name="shooter" id="shooter"/> <label for="vehicule">shooter</label> 
+		</fieldset>
+
+		<fieldset>
+			<input type="radio" name="sexe" value="HOMME" id="HOMME" /><label for="HOMME">HOMME</label>
+<br/>
+			<input type="radio" name="sexe" value="FEMME" id="FEMME"/><label for="FEMME">FEMME</label>
+		</fieldset>
+
+		<fieldset>
+		
+		<select>
+			<legend>choix Pays</legend>
+				<label for="Pays">Votre pays</label>
+<br/>
+					<select name="Pays" id="Pays">
+					<optgroup label="Europe">
+					<option value="FRANCE">FRANCE</option>
+					<option value="ALLEMAGNE">ALLEMAGNE</option></optgroup>
+					<optgroup label="Autre">
+					<option value="CANADA">CANADA</option>
+					<option value="UK">UK</option></optgroup>	
+		</select>
+<br/>
+		</fieldset>
+<br/>
+			<input type="date"/>
+<br/>
+<br/>
+			<input type="submit" name="envoyer" id="envoyer" value="Envoyer" />
+		</p>
+	</form>	
+</article>
+
+	<footer>
+		<p class="signature"> Copyright EASY PIZZY WILZY TIZZ  - Tous droits reserves </p>
+	</footer>
+</body>
+
+</HTML>

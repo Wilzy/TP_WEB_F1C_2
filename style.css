@@ -1,0 +1,134 @@
+/*Theme NAME: Theme site ludus1c
+THEME URI: ludus1C.com 
+Author: William weiler
+description: theme css site web ludus1c
+version:1.0
+License: Ludus 1c 
+License URI: Ludus1C.com
+text domain: Ludus1c
+*/
+
+body{/*mise en place de background*/
+	background-image:url("jager.jpg"); /*fond d'ecran*/
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-attachment:fixed;
+	background-size: 100%;
+	/*display:flex;
+	flex-direction: column;*/
+}
+
+
+#img{
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.T1{
+
+	text-align: center;/*mise en place titre*/
+	color:green;
+	border:3px groove;
+	border-radius: 15x;
+	border-radius: 50px 15px 50px 15px;
+	background-color:black;
+	box-shadow: 12px 12px 0px black;
+	width:450px;
+	margin-left: auto;
+	margin-right:auto;
+	margin:0 auto;
+
+}
+
+
+h1{
+	color: green;
+}
+
+#menu {
+  width: 400px; 
+  margin-left: 100;
+  margin-right: 0;
+  padding: 0;
+
+ 
+}
+
+#menu  a {
+  display: block;
+  background: black ;
+  color: green ;
+  font: 1em "Trebuchet MS",verdana;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+  border-width:1px; 
+ 	border-style:solid; 
+ 	border-color:white;
+
+}
+
+
+
+
+
+table {
+	color:green;
+	margin: auto;
+	border-width:1px; 
+ 	border-style:solid; 
+ 	border-color:white;
+	width:60%
+}
+th {
+ position: center; 
+ border-width:1px;
+ border-style:solid; 
+ border-color:white;
+ width:60%;
+ }
+
+
+.para{
+	text-align:auto;
+	color: green;
+	font-weight: bold;
+	font-size:20px;
+	background-color:WHITE;
+	
+}
+
+
+.para2{
+	text-align:center;
+	color: green;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.para3{
+	text-align:right;
+	color: red;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.img{
+	margin-left:45%; 
+	
+}
+
+
+
+#signature{/*signature*/
+	text-align:right;
+	font-weight: bold;
+	color: green;
+	margin-bottom:fixed;
+	 
+}
+
